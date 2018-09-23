@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SQLitest.Views.AddItemView">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="WhiteSmoke"
+            Padding="20">
+            <Label Text="Add new thing"
+                   HorizontalOptions="CenterAndExpand"
+                   />
+            
+            <StackLayout
+                VerticalOptions="CenterAndExpand">
+                <Label
+                Text="TYPE:"
+                FontSize="Micro"
+                />
+                <Grid>
+                    <Frame BackgroundColor="#73c6b6" Grid.Row="0" Grid.Column="0">
+                        <Label
+                            Text="Lent"
+                            HorizontalOptions="CenterAndExpand"/>
+                    </Frame>
+                    <Frame BackgroundColor="#7dcea0" Grid.Row="0" Grid.Column="1">
+                        <Label
+                            Text="Borrow"
+                            HorizontalOptions="CenterAndExpand"/>
+                    </Frame>
+                </Grid>
+            </StackLayout>
+
+            <StackLayout
+                VerticalOptions="StartAndExpand"
+                >
+                <Label
+                Text="CATEGORY:"
+                FontSize="Micro"
+                />
+
+                <Grid>
+                    <Frame BackgroundColor="#839192" Grid.Row="0" Grid.Column="0">
+                       
+                        
+                        <Label
+                            Text="Books"
+                            HorizontalOptions="CenterAndExpand"/>
+                    </Frame>
+                    <Frame BackgroundColor="#3498db" Grid.Row="0" Grid.Column="1">
+                        <Label 
+                            Text="Tech"
+                            HorizontalOptions="CenterAndExpand"/>
+                    </Frame>
+
+                    
+
+                    <Frame BackgroundColor="#34495e" Grid.Row="1" Grid.Column="0">
+                        <Label
+                            Text="Games"
+                            HorizontalOptions="CenterAndExpand"/>
+                    </Frame>
+
+                    <Frame BackgroundColor="#27ae60" Grid.Row="1" Grid.Column="1">
+                        <Label 
+                            Text="Money"
+                            HorizontalOptions="CenterAndExpand"/>
+                    </Frame>
+
+
+                    <Frame BackgroundColor="#4d5656" Grid.Row="2" Grid.Column="0">
+                        <Label
+                            Text="Others"
+                            HorizontalOptions="CenterAndExpand"/>
+                    </Frame>
+                    <Frame BackgroundColor="#f7dc6f" Grid.Row="2" Grid.Column="1">
+                        <Label 
+                            Text="Clothes"
+                            HorizontalOptions="CenterAndExpand"/>
+                    </Frame>
+                </Grid>
+
+                <Button
+                    VerticalOptions="Center"
+                    HorizontalOptions="CenterAndExpand"
+                    Text="Add"
+                    
+                    BorderRadius="46"
+                    CornerRadius="23">
+                </Button>
+
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
